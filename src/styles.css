@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 62.5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+
+    /* background-color: rgba(126, 133, 133, 0.468); */
+}
+
+button {
+    display: inline-flex;    /* important: flex on button */
+    align-items: center;    /* vertically center */
+    justify-content: center; 
+    padding: 5px;
+    border-radius: 8px;
+    gap: 8px;              /* space between icon and text */
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    
+}
+
+
+button:hover {
+    background-color: #cbc5c5a7;
+}
