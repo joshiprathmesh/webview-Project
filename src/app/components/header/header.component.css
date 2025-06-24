@@ -10,7 +10,16 @@ header {
     padding: 1rem 3rem;
     align-items: center;
     box-shadow: 6px 3px 16px  rgba(158, 158, 158, 0.715);
+    height: 70px;
+    top: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    backdrop-filter: blur(3px);
 
+    
 }
 
 .logo {

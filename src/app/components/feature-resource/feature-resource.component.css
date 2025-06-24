@@ -1,0 +1,41 @@
+.feature-resource-Container {
+    width: 900px;
+    /* background-color: beige; */
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: rem;
+}
+
+
+.scroller img {
+    scale: 70%;
+    border: 1px solid rgb(186, 183, 183);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 5px rgba(218, 215, 215, 0.436);
+
+}
+
+.scroller {
+    margin-top: 10px;
+    /* background-color: antiquewhite; */
+    scroll-behavior: smooth;
+    overflow-x:auto;
+    overflow-y:hidden;
+    overlay:none;
+    display: flex;
+    white-space: nowrap;
+    scrollbar-width: none;
+    border-radius: 20px;
+    border-top: none;
+    box-shadow: 5px 5px 10px 10px rgba(218, 215, 215, 0.436);
+}
+
+.scroller img:hover {
+    scale:80%;
+    transition: all 200ms;
+}
