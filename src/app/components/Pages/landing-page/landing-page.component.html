@@ -1,0 +1,39 @@
+<app-header/>
+
+<div class="landingPage-container">
+    <h3>Search all available online resources</h3>
+
+    <span class="inputSearchBar">
+        <input class="inputBar" type="text" placeholder="Search drugs, disease condition and labs">
+        <img  class="icon" src="icons/search.svg" alt="search-icon">
+    </span>
+
+    <p class="note">
+        Included for free with your mobile purchase. <button class="alert-btn" (click)="onAlertClick()">*</button>
+    </p>
+
+
+
+    @if(isAlertClicked === true)
+    {
+
+        <p class="alert">
+            * Only certain titles include online access.
+        </p>
+    }
+    
+
+
+        
+    @if(isLogIn === false)
+    {
+       <span class="note">
+           <a href="./">Sign-in</a> with your Skyscape account.
+        </span> 
+    }
+</div>
+
+<app-feature-resource/>
+
+
+<app-footer/>
