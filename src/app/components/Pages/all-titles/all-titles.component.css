@@ -1,0 +1,74 @@
+main {
+    margin-top: 70px;
+}
+
+
+.input-Cnt {
+    width: 30rem;
+    margin: 10px;
+}
+
+
+.inputSearchBar {
+    margin-top: 15px;
+    position: relative;
+}
+
+
+.inputBar {
+    height: 35px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid rgb(178, 173, 173);
+    /* width: 100%; */
+    width: 350px;
+
+}
+
+
+input:focus ,input:active {
+    outline: none;
+    padding-left: 2px;
+    box-shadow: 0px 0px 6px 1px rgb(122, 164, 219);
+}
+
+
+input::placeholder {
+    outline: none;
+    padding-left: 4px;
+    color: rgb(188, 188, 188);
+}
+
+.inputSearchBar img{
+    position: absolute;
+    right:10px;
+    top: 5px;
+    padding: 1px;
+    background-color: inherit;
+    border: 1px solid white;
+}  
+
+
+.icon {
+    width: 25px;
+}
+
+.search-functionality h2{
+    font-size: 16px;
+}
+
+.search-functionality {
+    display: flex;
+    gap:18px;
+    align-items: baseline;
+}
+
+.search-functionality select {
+    height: 35px;
+    border-radius: 8px;
+    padding: 2px 5px;
+    background-color: rgba(197, 233, 250, 0.521);
+    /* width: 110px; */
+}
+
+

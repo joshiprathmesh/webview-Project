@@ -1,0 +1,65 @@
+.icon {
+    width: 15px;
+}
+
+
+footer {
+    background-color: rgba(244, 244, 243, 0.859);
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem auto;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    /* margin: 1rem auto; */
+
+    
+}
+
+.footer-container {
+    width: 600px;
+    /* margin: 1px auto; */
+    padding-top: 20px;
+}
+
+.heading, .contactUs-container  {
+    color:rgb(100, 102, 102)
+}
+
+.heading {
+    margin-bottom: 1rem;
+}
+
+
+.contactUs-container {
+    display:inline-flex;
+    gap: 10px;
+}
+
+.actions img{
+    margin-left: 15px;
+    scale: 105%;
+    cursor: pointer;
+
+}
+
+.actions img:hover{
+    scale: 145%;
+    transition: all 200 ease-in-out;
+    /* fill: red; */
+}
+
+.copyright-info {
+    font-size: 12px;
+    margin-top: 20px;
+    color:#838484;
+    /* text-align: center; */
+
+}
+
+.copyright {
+}
