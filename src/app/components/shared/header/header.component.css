@@ -18,10 +18,7 @@ header {
     z-index: 1000;
     width: 100%;
     backdrop-filter: blur(10px);
-    background-color: rgba(236, 232, 227, 0.466);
-
-
-    
+    background-color: rgba(239, 237, 235, 0.466);  
 }
 
 .logo {
@@ -41,9 +38,24 @@ nav {
 
 
 
-nav a {
+.menuBtn{
     text-decoration: none;
     color: black;
     cursor: pointer;
+    background-color: inherit;
+    border:none;
+    margin: 0 -5px;
+
+}
+
+.my-active-class {
+    /* background-color: aliceblue; */
+
+
+    button{
+        padding:10px;
+        font-weight: 700;
+
+    }
 
 }
