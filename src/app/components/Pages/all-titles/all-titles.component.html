@@ -1,26 +1,24 @@
-<app-header/>
+<app-header />
+
 <main>
     <div class="search-functionality">
-        <h2>Search</h2>    
+        <h2>Search</h2>
         <select>
-            <option value="">All Resources</option>
-            <option value="laboratory">Laboratory</option>
-            <option value="Nursing">Nursing</option>
-            <option value="Medical">Medical</option>
+            <option *ngFor="let resource of resources" [value]="resource.toLowerCase()">
+                {{ resource }}
+            </option>
         </select>
         <select>
-            <option value="">Publisher</option>
-            <option value="Mc-Graw Hill">Mc-Graw Hill</option>
-            <option value="Elsevier">Elsevier</option>
-            <option value="LWW">LWW</option>
-            <option value="Wielys">Wielys</option>
+            <option *ngFor="let publisher of publishers" [value]="publisher.toLowerCase()">
+                {{ publisher }}
+            </option>
         </select>
         <span class="inputSearchBar">
-                <input class="inputBar" type="text" placeholder="Search drugs, disease condition and labs">
-                <img  class="icon" src="icons/search.svg" alt="search-icon">
+            <input class="inputBar" type="text" placeholder="Search drugs, disease condition and labs">
+            <img class="icon" src="icons/search.svg" alt="search-icon">
         </span>
     </div>
-    <app-title-list-container/>
+    <app-list-feature-resource />
 </main>
-<app-footer/>
 
+<app-footer />

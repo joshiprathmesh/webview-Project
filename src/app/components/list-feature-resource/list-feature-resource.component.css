@@ -1,0 +1,68 @@
+.list {
+    margin: 30px auto;
+    width: 80vw; 
+}
+
+.heading  {
+    padding-left: 5px;
+    color:rgb(91, 91, 91);
+}
+
+
+.listItem-card {
+    display: flex;
+    padding: 0px;
+    gap: 10px;
+    background-color: rgba(238, 236, 236, 0.639);
+    /* width: 80vw; */
+    margin: 12px auto;
+    height: fit-content;
+    border-radius: 10px;
+    border : 1px solid  rgba(255, 253, 253, 0.639);
+    box-shadow: 1px 2px 5px 3px rgba(241, 240, 240, 0.545);
+    /* align-items: top; */
+    position:relative;
+    margin-bottom: 20px;
+
+}
+
+.big-img{
+    width: 15%;
+    height: 10%;
+    margin: 20px;
+    border-radius: 10px;
+
+    /* border: 2px solid rgb(157, 156, 156); */
+}
+
+.card-info {
+    margin: 10px auto;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.title-name {
+    color:rgb(96, 94, 94);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+.priceTag {
+    position:absolute;
+    top: 20px;
+    right: 30px;
+    background-color: aliceblue;
+    padding: 6px;
+    border-radius: 8px;
+    border:1px solid rgb(155, 187, 215);
+}
+
+.title-description,.publisher-info {
+    font-family: sans-serif;
+    margin-bottom:1rem;
+}

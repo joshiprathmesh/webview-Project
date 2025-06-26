@@ -8,7 +8,7 @@ import { InputbarComponent } from "../../shared/inputbar/inputbar.component";
 
 @Component({
   selector: 'app-landing-page',
-  imports: [FormsModule, FeatureResourceComponent, HeaderComponent, FooterComponent, InputbarComponent],
+  imports: [FormsModule, HeaderComponent, FooterComponent, InputbarComponent, FeatureResourceComponent],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css'
 })
@@ -16,20 +16,6 @@ export class LandingPageComponent {
   isLogIn?:boolean = false;
 
   isAlertClicked?:boolean = false;
-
-  
-
-  onMouseOver() {
-    this.isAlertClicked = !this.isAlertClicked;
-    console.log("overrrr");
-
-  }
-
-  onMouseOut() {
-    this.isAlertClicked = !this.isAlertClicked;
-    console.log("outttt");
-    
-  }
 
   onAlertClick (){
     this.isAlertClicked = !this.isAlertClicked;

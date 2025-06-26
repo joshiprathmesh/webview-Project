@@ -61,13 +61,15 @@ input::placeholder {
     display: flex;
     gap:18px;
     align-items: baseline;
+    max-width: 79vw;
+    margin: 0 auto;
 }
 
 .search-functionality select {
     height: 35px;
     border-radius: 8px;
     padding: 2px 5px;
-    background-color: rgba(197, 233, 250, 0.521);
+    background-color: rgba(195, 222, 234, 0.521);
     /* width: 110px; */
 }
 

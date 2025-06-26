@@ -1,20 +1,49 @@
-article {
-    width: 450px;
-    padding: 30px 50px;
-    margin: 3rem auto;
-    box-shadow: 1px 5px 5px rgba(215, 210, 210, 0.538);
-    border-radius: 8px;
-    /* background-color: #806d6d; */
+.login-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    overflow: hidden;
 }
 
-/* :host{
-    background-color: #457fca;
-} */
+
+.login-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../../../../../public/thermometer-with-high-temperature-pills.jpg') center center / cover no-repeat;
+    opacity: 0.5; /* Adjust image opacity */
+    z-index: -2;
+}
+
+/* Black tint overlay */
+.login-container::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4); /* Adjust tint strength */
+    z-index: -1;
+}
 
 
+.form-container {
+    width: 450px;
+    padding: 30px 50px;
+    /* margin: 3rem auto; */
+    border: 1px solid  rgba(158, 156, 156, 0.319);
+    box-shadow: 1px 5px 5px rgba(160, 157, 157, 0.538);
+    border-radius: 8px;
+    background-color:  rgba(148, 148, 146, 0.693);
+    /* backdrop-filter: blur(2px); */
+}
 
-article .logo {
-    scale: 50%;;
+
+.form-container .logo {
+    scale: 50%;
+    /* stroke:blue; */
 }
 
 form {
@@ -28,7 +57,7 @@ form p {
     flex-direction: column;
     width: 100%;
     gap: 5px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 p input {
@@ -72,7 +101,7 @@ button {
 
 .forgotPass-text a {
     text-decoration: none;
-    color:#4c8cdf;
+    color:#511ec1;
     
 
 }
@@ -83,16 +112,13 @@ button {
 
 
 
-
-
-
 .icon {
     width:15px;
 }
 
 
 
-.btn-grad {background-image: linear-gradient(to right, #457fca 0%, #5691c8  51%, #457fca  100%)}
+.btn-grad {background-image: linear-gradient(to right, #3d68a1 0%, #589ddd  51%, #2a5287  100%)}
 .btn-grad {
     margin: 10px 0px;
     padding: 15px 45px;
@@ -101,7 +127,7 @@ button {
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
-    box-shadow: 0 0 20px #eee;
+    /* box-shadow: 0 0 20px #eee; */
     border-radius: 10px;
     display: block;
     margin-bottom: -12px;
