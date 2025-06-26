@@ -17,7 +17,9 @@ header {
     left: 0;
     z-index: 1000;
     width: 100%;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(236, 232, 227, 0.466);
+
 
     
 }

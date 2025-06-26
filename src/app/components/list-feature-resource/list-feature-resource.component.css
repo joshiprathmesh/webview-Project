@@ -1,0 +1,69 @@
+.list {
+    margin: 30px auto;
+    width: 80vw; 
+}
+
+.heading  {
+    padding-left: 5px;
+    color:rgb(91, 91, 91);
+}
+
+
+.listItem-card {
+    display: flex;
+    padding: 1px;
+    gap: 10px;
+    background-color: rgba(230, 230, 230, 0.639);
+    /* width: 80vw; */
+    margin:10px auto;
+    height: fit-content;
+    border-radius: 20px;
+    border : 1px solid rgba(230, 230, 230, 0.639);
+    box-shadow: 3px 3px 6px 6px rgba(238, 230, 230, 0.545);
+    /* align-items: top; */
+    position:relative;
+
+}
+
+.big-img{
+    width: 15%;
+    height: 10%;
+    margin: 20px;
+
+    /* border: 2px solid rgb(157, 156, 156); */
+    border-radius: 20px;
+}
+
+.card-info {
+    margin: 10px auto;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.title-name {
+    color:rgb(96, 94, 94);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 18px;
+    /* font-family: ; */
+    /* text-shadow: 1px 1px rgb(146, 145, 145) ; */
+}
+
+.priceTag {
+    position:absolute;
+    top: 20px;
+    right: 30px;
+    background-color: aliceblue;
+    padding: 6px;
+    border-radius: 8px;
+    border:1px solid rgb(142, 142, 142);
+}
+
+.title-description,.publisher-info {
+    font-family: sans-serif;
+    margin-bottom:1rem;
+}

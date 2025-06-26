@@ -1,0 +1,28 @@
+<div class="list">
+    <h3 class="heading">Browse all Titles</h3>
+    <ul>
+
+        @for (item of titleData; track item.id) {
+            <li>
+                <div class="listItem-card ">
+                    <img class="big-img" src="titles/5manes_big.png">
+                    <div class="card-info">
+                        <h3 class="title-name">
+                            {{item.name}}
+                        </h3>
+                        <p class="title-description">
+                            {{item.description}}
+                        </p>
+                        <p class="publisher-info">
+                            Publisher: {{item.publisher}}
+                        </p>
+                        <p class="editior-info">
+                            Editor: {{item.editior}}
+                        </p>
+                        <span class="priceTag">$99.99</span>
+                    </div>
+                </div>
+            </li>
+        }
+    </ul>
+</div>
