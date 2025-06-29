@@ -1,0 +1,50 @@
+.no-page-img{
+    /* width: 40rem;
+    height:30rem; */
+    width: 40vw;
+    height:70vh;
+
+}
+
+.no-page-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap:10px;
+    background-color: rgba(244, 240, 240, 0.486);
+    height: 70vh;
+    width: 60vw;
+    margin: 3rem auto;
+    border-radius: 10px;
+    box-shadow: 3px 5px 18px 4px rgba(228, 225, 225, 0.616);;
+}
+
+
+.info-container{
+     align-self: center;
+     padding: 2rem;
+    width: 20vw;
+
+}
+
+.info-container h2{
+    color:rgb(232, 35, 35);
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size:24px;
+    margin-bottom: 1rem;
+}
+
+.info-container p{
+    font-size:14px;
+    font-weight: 500;
+    color:rgb(141, 142, 142);
+}
+
+button{
+    margin: 2rem auto;
+    background-color: rgb(243, 82, 76);
+    font-weight: 500;
+}
+
