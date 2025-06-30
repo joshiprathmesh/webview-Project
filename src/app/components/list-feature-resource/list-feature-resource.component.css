@@ -66,3 +66,13 @@ ul {
     font-family: sans-serif;
     margin-bottom:1rem;
 }
+
+
+/* ************************************ */
+
+.no-result-info{
+    margin-top: 15px;
+    padding-left: 6px;
+    color:rgb(255, 82, 82);
+
+}
