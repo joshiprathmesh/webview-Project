@@ -13,23 +13,22 @@ export class LoginComponent {
   @ViewChild('form') form?:ElementRef<HTMLFormElement>;
 
   users=loginData;
-
-  tempEmail:string="a@email.com";
-  tempPassword:string="123";
-
   
   onSubmit (email:string,password:string){
     
-    // userEmail = this.users.find((user)=>user.email == email)
-    // console.log()
+    const user = this.users.find(
+      (user)=> 
+          user.email === email && user.password === password
+        );
 
+    if(user)
+    {
+      console.log("SUBMITTED....!");
+    }
+    else {
+      console.log("Invalid Credentials....!");
 
-    
-    // if(this.users.find((item))  && password == this.tempPassword )
-    // {
-    //   console.log("SUBMITTED....!");
-    // }
-    this.form?.nativeElement.reset();
+    }
   }
 
 
